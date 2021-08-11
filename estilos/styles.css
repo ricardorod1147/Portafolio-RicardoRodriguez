@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+.container-main{
+    width: 100%;
+    height: 655px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.left{
+    width: 50%;
+    height: 100vh;
+    background-image: url("../imagenes/paisaDosOcho.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+.right{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}   
+li{
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 10px;
+    outline: none;
+}
+.fotoUno{
+    display: block;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 34%), -1px 1px 1px rgb(0 0 0 / 50%);
+    margin-bottom: 50px;
+}
+.botonesLeft{
+    margin-top: 50px;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.botonesLeft a{
+    width: 30%;
+    height: 55%;
+    padding-top: 15px;
+    text-align: center;
+    color: palegreen;
+    border: 3px solid white;
+    background-color: #194350;
+}
+.lista {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+}
+p {
+    margin-top: 50px;
+    font-size: 18px;
+    color: #194350;
+    font-family: sans-serif;
+
+}
+
+h1 {
+    font-size: 45px;
+    
+}
+h1 span{
+    color: blue;
+}
+
+
+nav ul{
+
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 27%;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 20px;
+   
+}
+
+
+
+nav ul li {
+    width: 30%;
+    margin-right: 10px;
+}
+
+nav ul li a img{
+    max-width: 100%;
+}
