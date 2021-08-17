@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
 *{
     margin: 0px;
     padding: 0;
 }
-
 ul{
     text-decoration: none;
     list-style: none;
@@ -18,7 +19,7 @@ ul{
 .left{
     width: 50%;
     height: 100vh;
-    background-image: url("../imagenes/paisaDosOcho.jpg");
+    background-image: url("../imagenes/fotoVeinte.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -61,9 +62,13 @@ li{
     height: 55%;
     padding-top: 15px;
     text-align: center;
-    color: palegreen;
+    color: white;
     border: 3px solid white;
-    background-color: #194350;
+    
+}
+
+.botonesLeft a:hover{
+    background-color: #368B85;
 }
 .lista {
     display: flex;
@@ -71,23 +76,32 @@ li{
     flex-direction: column;
     align-items: center;
 }
-p {
-    margin-top: 50px;
-    font-size: 18px;
-    color: #194350;
-    font-family: sans-serif;
 
+.lista li a {
+    color: #6a6a6a;
+}
+.lista li a:hover{
+    color: #47A3DA;
+}
+.tituloUno{
+  font-size: 35px;
+  margin-bottom: 3rem;
+  color: white;
+}
+.tituloUno span{
+    color: #47A3DA;
+    font-size: 48px;
+}
+.lista-uno li{
+    color: rgb(211, 195, 195);
+    font: Roboto;
+    font-size: 20px;
 }
 
-h1 {
-    font-size: 45px;
-    
+.lista-uno li span{
+    font-size: 24px;
+    font-style: normal;
 }
-h1 span{
-    color: blue;
-}
-
-
 nav ul{
 
     display: flex;
@@ -99,9 +113,6 @@ nav ul{
     margin-top: 20px;
    
 }
-
-
-
 nav ul li {
     width: 30%;
     margin-right: 10px;
@@ -109,4 +120,8 @@ nav ul li {
 
 nav ul li a img{
     max-width: 100%;
+}
+
+nav ul li:hover{
+    color: #47A3DA;
 }
