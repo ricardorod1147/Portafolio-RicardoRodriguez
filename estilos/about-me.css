@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.about-me{
+    background-image: url("../imagenes/imagen-ejemplo.jpg") ;
+}
+.texto-about p {
+    color: aqua;
+}

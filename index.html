@@ -8,17 +8,26 @@
     <link rel="stylesheet" href="estilos/grid.css">
     <link rel="stylesheet" href="estilos/styles.css">
 </head>
+
+
 <body>
 <!----HEADER-------->
+
 <!----CIERRE HEADER-------->
 
-
     <!--CONTAINER-->
-    <div class="container-main">
+    <div class="container-main" id="container-main">
+        
+       
 
     <!--DIV IZQUIERDO HOME-->
-        <section class="left">
-                    
+        <div class="left" id="left">
+            <div class="menus" id="menus">
+                <h2>Ricardo R</h2>
+                <input type="checkbox" id="menu-hambur">
+                <label for="menu-hambur"><img src="imagenes/menu-hamburguesa.png" alt=""></label>
+            </div>
+            
             <div class="tituloUno">
                 <h1>I'am <span>Richard</span></h1>
             </div>
@@ -35,14 +44,15 @@
                             <a href="#">RESUME</a>
                             <a href="#">HIRE-ME</a>
                         </div>
-        </section>
+                    </div>
     <!--CIERRE DIV IZQUIERDO HOME-->
     <!--DIV DERECHO HOME-->
-    <section class="right">
+    <div class="right" id="right">
         <div class="fotoPerfil">
                         <img class="fotoUno" src="imagenes/fotoOcho.png"" alt="">
-                    </div>
                         <h3>Ricardo Rodríguez</h3>
+                    </div>
+                        
                 <nav class="icons">
                         <ul>
                             <li><a href="#"><img src="imagenes/facebook.png" alt="facebook"></a></li>
@@ -51,8 +61,9 @@
                             <li><a href="#"><img src="imagenes/linkedin.png" alt="linked"></a></li>
                             <li><a href="#"><img src="imagenes/github-logo.png" alt="git"></a></li>
                         </ul>
-
-                </nav class="lista-right">
+                </nav>
+                        
+                <nav class="lista-right">
                         <ul class="lista">
                             <li><a href="#">HOME</a></li>
                             <li><a href="#">ABOUT ME</a></li>
@@ -63,14 +74,17 @@
                             <li><a href="#">CONTACT</a></li>
                         </ul>
 
-    </section>
-    <!--CIERRE DIV DERECHO HOME-->
+                </nav>
+
+                    </div>
+<!--CIERRE DIV DERECHO HOME-->
     </div>
 <!--CIERRE CONTAINER-->
 
 <!--SCRIPT JS-->
 
     <script src="js/scroll.js"></script>
+    <script src="js/main.js"></script>
 
 <!--CIERRE SCRIPT JS-->
 </body>
