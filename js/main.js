@@ -6,18 +6,13 @@ const main = document.getElementById('container-main');
 
 function mostrar(){
     if(labelUno.checked == true){
-        rightPag.style.display=("block");
-        rightPag.style.position=("relative");
-        rightPag.style.right=("50%");
-        rightPag.style.top=("50px");
-        rightPag.style.height=("91vh");
+        rightPag.style.right=("0");
         rightPag.style.maxWidth=("400px");
     console.log("Es verdadero");
     }else{
-        console.log("Esfalso");
-        rightPag.style.right=("-50%");
-        leftPag.style.width=("100%");
-        window. location. reload();
+        rightPag.style.right=("-100%");
+       // leftPag.style.width=("100%");
+        //window. location. reload();
 
     }
 }
